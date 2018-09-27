@@ -4,7 +4,7 @@
     <TargetFrameworks>net472</TargetFrameworks>
   </PropertyGroup>
   <ItemGroup>
-    <!-- -->
+    <!-- System.IO.Pipelines references System.Buffers 4.4.0 (4.0.2) and needs a binding redirect to 4.0.3, since we have newer below -->
     <PackageReference Include="System.IO.Pipelines" Version="4.5.1" />
     <PackageReference Include="System.Buffers" Version="4.5.0" />
   </ItemGroup>

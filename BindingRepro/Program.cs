@@ -8,7 +8,7 @@ namespace BindingRepro
         public static void Main(string[] args)
         {
             Console.WriteLine("Going boom...");
-            Boom.CantTouchThis();
+            Hammer.CantTouchThis();
             Console.WriteLine("Shouldn't get here...");
         }
     }
