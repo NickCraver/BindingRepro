@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingRepro", "BindingRepro\BindingRepro.csproj", "{1E8DEDD7-B70B-4FCF-BC6B-27ECD0794AFE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefPipelines", "RefPipelines\RefPipelines.csproj", "{59C8C76F-1838-4D3F-994E-147A6837EAD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1E8DEDD7-B70B-4FCF-BC6B-27ECD0794AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E8DEDD7-B70B-4FCF-BC6B-27ECD0794AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E8DEDD7-B70B-4FCF-BC6B-27ECD0794AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C8C76F-1838-4D3F-994E-147A6837EAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C8C76F-1838-4D3F-994E-147A6837EAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C8C76F-1838-4D3F-994E-147A6837EAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C8C76F-1838-4D3F-994E-147A6837EAD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
