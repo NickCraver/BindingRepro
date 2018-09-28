@@ -1,6 +1,7 @@
-# Bidning Redirects go boom.
+# Binding Redirects go boom.
 
-This repo demonstrates a lack of binding reidrect generation when needed for runtime, even under .NET 4.7.2.
+This repo demonstrates a lack of binding reidrect generation when needed for runtime, even under .NET 4.7.2. This is for issue [dotnet/corefx #32511](https://github.com/dotnet/corefx/issues/32511).
+
 In here we have:
 - BindingRepro (sample console)
 - RefPipelines (sample library)
